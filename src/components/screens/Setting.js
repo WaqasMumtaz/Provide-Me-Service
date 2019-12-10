@@ -21,7 +21,8 @@ export default class SettingScreen extends React.Component {
                 let userData = JSON.parse(value);
                 userData.status = 'Offline'
 
-                //db.ref(`users/${userData._id}`).update(userData);
+                // db.ref(`users/${userData._id}`).update(userData);
+                
             }
         })
         firebase.auth().signOut().then(()=>{
