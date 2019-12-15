@@ -228,7 +228,7 @@ class Login extends React.Component {
     const { email, password, psswrdInstruction, isLoading, passwordNotMatch, psswrdNotMatchShow, emailAndPasswrd } = this.state;
     console.log('error >>', this.state.errorMessage)
     return (
-      <ScrollView style={{ flex: 1, backgroundColor: 'black', height: height }} contentContainerStyle={{ flexGrow: 1 }} >
+      <ScrollView style={{ flex: 1, backgroundColor: '#FFFFFF', height: height }} contentContainerStyle={{ flexGrow: 1 }} >
         <View style={styles.loginTextContainer}>
           <Text style={styles.textLogin}>
             Login
@@ -236,8 +236,8 @@ class Login extends React.Component {
         </View>
         <View style={styles.logoContainer}>
           {/* <Image source={require('../icons/logo.png')} style={styles.forImages} resizeMode='contain' /> */}
-          <Text>GRAVEYARD</Text>
-          <Text>APPLICATION</Text>
+          <Text style={styles.graveyard}>GRAVEYARD</Text>
+          <Text style={styles.application}>APPLICATION</Text>
         </View>
         <View style={{ flex: 1 }}></View>
         <View style={styles.paraContainer}>

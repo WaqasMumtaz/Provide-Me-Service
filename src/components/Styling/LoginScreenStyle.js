@@ -19,15 +19,23 @@ const styles =StyleSheet.create({
         fontSize: 20,
         fontFamily: "MontserratExtraBold",
         // fontSize: 23,
-        color: '#A6A6A6',
+        color: '#447BBE',
         marginLeft: 20
       },
       logoContainer: {
         flex: 2,
         //backgroundColor:'red',
-        flexDirection: 'row',
+        alignItems:'center',
         justifyContent: 'center',
         marginTop: 10
+      },
+      graveyard:{
+        color:'#3AC6F4',
+        fontFamily: "MontserratExtraBold"
+      },
+      application:{
+        color:'#447BBE',
+        fontFamily: "MontserratExtraBold"
       },
       paraContainer: {
         flex: 1,
@@ -82,9 +90,9 @@ const styles =StyleSheet.create({
         fontSize: 16,
         //fontWeight: "bold",
         fontFamily: "MontserratExtraBold",
-        backgroundColor: '#FF6200',
-        color: '#FFF',
-        borderWidth: 2,
+        backgroundColor: '#3AC6F4',
+        color: '#FFFFFF',
+        //borderWidth: 2,
         //borderColor: '#FF6200',
         textAlign: 'center',
         borderRadius: 7,
@@ -119,7 +127,7 @@ const styles =StyleSheet.create({
       },
       resetPasswrdTextStyle: {
         fontFamily: 'MontserratMedium',
-        color: '#FF6200',
+        color: '#3AC6F4',
         marginLeft: 20
       },
       btnContainer: {
@@ -136,7 +144,7 @@ const styles =StyleSheet.create({
       registerText: {
         // fontSize:23,
         fontFamily: 'MontserratMedium',
-        color: '#FF6200',
+        color: '#3AC6F4',
         
       },
       passwrdInstructionContainer:{

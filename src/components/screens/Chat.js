@@ -718,7 +718,7 @@ class Chatscreen extends React.Component {
     let month;
     let year;
     let showDate;
-    console.log('image path >>', imagePath)
+   // console.log('image path >>', imagePath)
 
     const chatMessages = this.state.chatMessages.map((message, key) => {
       if (dateNum == undefined) {
